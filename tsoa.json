@@ -1,0 +1,16 @@
+{
+    "swagger": {
+        "outputDirectory": "./_swagger",
+        "entryFile": "./src/server.ts",
+        "host": "localhost:3000",
+        "basePath": "/",
+        "yaml": true
+    },
+    "routes": {
+        "basePath": "/",
+        "entryFile": "./src/routes.ts",
+        "routesDir": "./src",
+        "iocModule": "./src/inversify/ioc",
+        "middleware": "koa"
+    }
+}
