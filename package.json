@@ -29,7 +29,7 @@
     "koa-bodyparser": "^4.2.1",
     "koa-helmet": "^4.2.0",
     "koa-router": "^7.4.0",
-    "koa-winston": "git+https://nb_met@bitbucket.org/nb_met/koa-winston.git#master",
+    "koa-winston-logger": "git+https://github.com/bizarim/koa-winston-logger.git#master",
     "node-uuid": "^1.4.8",
     "reflect-metadata": "^0.1.13",
     "tsoa": "^2.4.3",

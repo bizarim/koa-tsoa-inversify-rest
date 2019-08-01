@@ -12,7 +12,7 @@ const Koa = require("koa");
 const Router = require("koa-router");
 const bodyParser = require("koa-bodyparser");
 const helmet = require("koa-helmet");
-const dist_1 = require("koa-winston/dist");
+const dist_1 = require("koa-winston-logger/dist");
 const routes_1 = require("./routes");
 const Logger_1 = require("./Logger");
 // todo

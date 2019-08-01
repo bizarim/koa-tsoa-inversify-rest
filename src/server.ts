@@ -3,7 +3,7 @@ import * as Router from 'koa-router';
 import * as bodyParser from 'koa-bodyparser';
 import * as winston from 'winston';
 import * as helmet from 'koa-helmet';
-import { logger } from 'koa-winston/dist';
+import { logger } from 'koa-winston-logger/dist';
 import { RegisterRoutes } from './routes';
 import { Logger } from './Logger';
 // todo
